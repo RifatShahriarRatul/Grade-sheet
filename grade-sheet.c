@@ -11,6 +11,7 @@ int main()
         scanf("%d", &mark[i]);
     }
     printf("Serial no.    Mark     Grade\n");
+    printf("----------------------------\n");
     for(i=0; i<num; i++)
     {
              if(mark[i]>79) printf("%d.             %d        A+", i+1, mark[i]);
