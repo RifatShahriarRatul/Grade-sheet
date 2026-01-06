@@ -14,14 +14,14 @@ int main()
         scanf("%d", &n);
         printf("Enter your marks in Assignment: ");
         scanf("%d", &o);
-        printf("Enter your marks in Fianl: ");
+        printf("Enter your marks in Final: ");
         scanf("%d", &p);
         if(m<=10 && n<=20 && o<=10 && p<=60)
         {
             total_mark = m+n+o+p;
             mark[i] = total_mark;
         }else{
-            printf("Your input is accurate");
+            printf("Your input is inaccurate\n");
         }
     }
     printf("----------------------------\n");
